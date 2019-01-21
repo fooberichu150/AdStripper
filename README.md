@@ -7,3 +7,5 @@ From folder containing application:
 
 #### Disclaimer
 This is ultra-basic, hard-coded arguments for ffprobe and ffmpeg.  This application could and should be extended quite a bit so the flags can be set via code before executing the external processes.  Likely the FFMpegWrapper and FFProbeWrapper would be modified to only be just that, wrappers, and processing services implemented around those respective calls like maybe `IVideoSplitter`, `IVideoJoiner`, `IMetaDataParser` etc.  For now though this serves my purposes.
+
+Read about code in this repository on blog post [Removing advertisements from recorded video streams](https://www.seeleycoder.com/blog/removing-advertisements-video-streams/)
